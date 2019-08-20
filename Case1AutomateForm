@@ -1,0 +1,16 @@
+//CASE 1 - AUTOMATE FORM AUTHENTICATION
+
+//using Javascript
+
+function Login() {}
+
+Login.prototype.authenticate = function(name, password) {
+
+if (name!=="tom smith"||password !=="SuperSecretPassword!"){
+return "Username or password is incorrect";
+}
+
+else return "Welcome";
+
+};
+
