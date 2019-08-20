@@ -1,0 +1,23 @@
+//CASE 2 - SCROLL TO BOTTOM
+//JavaScript
+
+//use scrollDown to get to bottom of page
+var scrollDown = function() {
+window.scrollTo(0, document.body.scrollHeight);
+}
+
+//set up speed of scrolling
+var delay = 2000;
+var intervalID = setInterval(scroll, delay);
+
+//stop scrolling
+window.clearInterval(intervalID);
+
+//scroll back to top
+var scrollUp = function(){
+window.scrollTo(0, 0);
+}
+var delay = 2000;
+var intervalID = setInterval(scroll, delay);
+
+window.clearInterval(intervalID);
