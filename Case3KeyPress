@@ -1,0 +1,10 @@
+//CASE 3 - KEY PRESS
+//couldn't find a way to do this using only JavaScript, so with HTML as well.  Assuming the header, page style, etc, have already been set up
+
+<input type="text" onkeydown="myFunction()">
+
+<script>
+function myFunction() {
+  return event.key;
+}
+</script>
